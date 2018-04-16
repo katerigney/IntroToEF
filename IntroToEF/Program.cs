@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using IntroToEF.Data;
+
 
 namespace IntroToEF
 {
@@ -10,6 +12,9 @@ namespace IntroToEF
     {
         static void Main(string[] args)
         {
+            var dbContext = new DataContext();
+
+
         }
     }
 }
